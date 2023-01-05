@@ -1,0 +1,94 @@
+<resources>
+
+   <string name="Language">
+       <br>
+    Chinese and English are the official languages of Hong Kong. English is widely used in the Government and by the legal, professional and business sectors. Proportion of population aged 5 and over by usual spoken language: \n</br>
+    <br>  \n</br>
+           Cantonese: 88.9% (2016)
+           <br>  \n</br>
+    Putonghua: 1.9% (2016)
+           <br>  \n</br>
+    Other Chinese dialect: 3.1% (2016)
+           <br>  \n</br>
+    English: 4.3% (2016)
+           <br>  \n</br>
+    Other language: 1.9% (2016)
+           <br>  \n</br>
+
+    </string>
+
+    <string name="HK_ISLANDS">
+        <br>
+            Hong Kong covers Hong Kong Island, Lantau Island, the Kowloon Peninsula and the New Territories, including 262 outlying islands.
+        </br>
+    </string>
+    <string name="Refugees_in_HK">
+        Refugees in HK
+        <br>  \n</br>
+
+        <br>
+            Unfortunately, Within HK, Refugees are classified as illegal immigrants, even if their request for asylum is accepted by the government. This is because the UN Refugee convention signed in 1951 by China is not extended to HK and even Macau. Therefore, refugees in HK face an uncertain future. Infact, only around 138 refugees have been accepted by the HK government as of now despite the 14100 living in the city. \n</br>
+   <br>  \n</br>
+
+        <br>What the HK Government currently provides for refugees? </br>
+
+    </string>
+
+    <string name="Accomodation">
+        <br>Accomadation</br>
+    </string>
+
+    <string name="Food">
+        <br>Food</br>
+    </string>
+
+    <string name="Transportation">
+        <br>Transportationn</br>
+    </string>
+
+    <string name="Utilities">
+        <br>Utilities</br>
+    </string>
+
+    <string name="Items">
+        <br>Items</br>
+    </string>
+    <string name="Total_Remittance">
+        <br>Total Remittance</br>
+    </string>
+
+    <string name="R1">
+    <br> 1500 HK dollars </br>
+
+</string>
+
+ <string name="R2">
+     <br> 1200 HK dollars </br>
+</string>
+<string name="R3">
+    <br>
+    230 HKD </br>
+</string>
+<string name="R4">
+    <br> 300HKD </br>
+    </string>
+
+    <string name="R5">
+    <br> Items: 2 Toilet Rolls, 2 piece of body washing soap, 1 kg washing powder, 1 toothpaste, 1 tooth brush, tuition fee for 9 months </br>
+
+</string>
+    <string name="R6">
+    <br> 3230 HKD </br>
+
+</string>
+
+    <string name="Minimum_Living_Expenses">
+        <br> Minimum Living Expenses in HK estimated(2020)
+        </br>
+    </string>
+
+    <string name="R7">
+        <br> 7,926.09 HKD </br>
+    </string>
+
+</resources>

@@ -1,0 +1,2955 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="?attr/actionBarSize"
+    tools:context=".ui.main.PlaceholderFragment">
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            android:stretchColumns="0,1,2"
+            android:gravity="center">
+            tools:ignore="MissingConstraints">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="143dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:background="#00ced1">
+
+                <TextView
+                    android:id="@+id/header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="56dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Language Assistance: Locations"
+                    android:textColor="@android:color/white"
+                    android:textSize="22sp" />
+            </RelativeLayout>
+
+            <TableRow
+                android:background="#FFFFFF"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+                <TableRow
+                    android:background="#000000"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    ></TableRow>
+            </TableRow>
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="English"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Cantonese "
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    />
+            </TableRow>
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Avenue"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Lo"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Lane"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Hong Chai"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Street"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Gai"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Aberdeen"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Her-gong-jai"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Admiralty"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Kum-jone"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Arbuthnot Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ah-pak-lok-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Argyle Street"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ah-gai-lo-gai"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Austin Avenue"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Or-see-din-lo"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Austin Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Or-see-din-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Belcher’s Street"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Bay-low-cha-gai-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Blue Pool Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Lam-thong-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Cameron Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Kam-ma-lun-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Canton Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Gong-dong-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Carnarvon Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ka-la-fun-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Causeway Bay"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Tung-law-wan"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Central"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Jone-wan"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Chatham Court"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Chat-ham-toi"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Chatham Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Chat-ham-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Conduit Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Gone-duck-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Connaught Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Gone-lok-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Consort Rise"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Kam-suk-kai"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="D’Aguilar Street"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Duck-kei-nap-gai"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Deep Water Bay"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Sum-soi-wan"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Des Voeux Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Duck-fu-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Diamond Hill"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="June-sek-san"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Discovery Bay"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Yu-ging-wan"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Duddell Street"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Do-there-lei-gai"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Fortress Hill"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Pao-toi-san"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Garden Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Fa-yuen-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Gascoigne Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ka-see-koi-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Gloucester Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Go-see-da-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Granville Circuit"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ka-lin-wai-lo"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Granville Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ka-lin-wai-lo-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Green Lane"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Kay-leen-fong"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Greig Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Gay-lei-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Hankow Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Hon-hau-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Happy Valley"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Pau-ma-day"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Harbour Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Hoi-gong-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Hart Avenue"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Hak-tak-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Hennessy Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Heen-nei-see-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="High Street"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ko-gai"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Hillwood Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="San-lum-sou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Hollywood Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ho-lei-wood-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ice House Street"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Shuet-chong-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Island Line"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Gong-don-sin"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Jordan"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Jor-dong"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Kennedy Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Keen-nei-tei-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Kennedy Town"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Gin-lei-day-Shing"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Kimberley Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Kam-ba-lei-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="King’s Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ying-wong-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Kotewall Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Yuk-wo-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Kowloon Bay"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Kao-lung-wan"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Kowloon Station"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Kao-lung-jarm"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Lyndhurst Terrace"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="By-fa-gai"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ma Ling Path"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ma-ling-keng"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Macdonnell Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Mak-don-no-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Mid Levels"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Jone-boon-san"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Middle Lane"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Chung-kan-lei"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Middle Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Chung-kan-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Minden Avenue"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Meen-done-ging"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Minden Row"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Min-din-toi"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="North Point"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Buck-gok"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Oakland’s Path"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Oak-noun-c-lay"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Observatory Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Tim-man-tou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Paterson Street"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Bak-tak-sun-gai"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Peak"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="San-deng"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Pitt Street"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Big-gai"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Pokfulam"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Bock-fu-lam"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Prat Avenue"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Bow-lak-hong"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Prince Edward Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Thai-chee-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Public Square Street"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Jone-fong-gai"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Quarry Bay"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Juck-yu-chung"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Queen’s Road C."
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Wong-hou-dai-dou Jong"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Robinson Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Lo-been-san-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Salisbury Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Saw-see-bar-lei-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Science Museum Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="For-hok-koon-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Seymour Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Sai-mor-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Smithfield Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="See-may-face-douce"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Stanley Street"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ci-dan-lei-gai"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Stubbs Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Sze-tao-but-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Tai Fung Avenue"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Tai-fung-lo"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Tai Po Market"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Tai-po-hui"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Third Street"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Dai-sam-gai"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="University"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Tai-hok"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ventris Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Wan-day-lai-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Waterloo Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Wo-dai-lo-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Watford Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Wo-fook-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Wellington Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Wai-ling-ton-gai"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Wharf Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Wo-fu-dou"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Wylie Road"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Y-lay-ging"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+            <TableRow
+                android:background="#000000"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Wyndham Street"
+                    android:layout_margin="1dp"
+                    android:layout_column="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Wan-ham-gai"
+                    android:layout_margin="1dp"
+                    android:layout_column="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+    <fragment
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/mobile_navigation" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+</RelativeLayout>

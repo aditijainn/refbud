@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-9dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="143dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp"
+            android:background="#00ced1">
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="56dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:text="Transportation"
+                android:textColor="@android:color/white"
+                android:textSize="22sp" />
+
+            <ImageView
+                android:layout_width="113dp"
+                android:layout_height="85dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="31dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/bagpack" />
+        </RelativeLayout>
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="383dp"
+            android:layout_height="169dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:gravity="left|top"
+            android:inputType="textMultiLine"
+            android:text="@string/hk_transport"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <EditText
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:gravity="top|left"
+            android:inputType="textMultiLine"
+            android:text="@string/MTR_para1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:src="@drawable/mtr_map"
+            />
+
+        <EditText
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:gravity="top|left"
+            android:inputType="textMultiLine"
+            android:text="@string/MTR_para2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <EditText
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:gravity="top|left"
+            android:inputType="textMultiLine"
+            android:text="@string/KMB"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <EditText
+            android:layout_width="389dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:gravity="center_vertical|center_horizontal"
+            android:inputType="textMultiLine"
+            android:text="@string/Link_to_Transportation_Website"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/colorPrimaryDark" />
+        <EditText
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:gravity="top|left"
+            android:inputType="textMultiLine"
+            android:text="@string/Minibus"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        <EditText
+            android:layout_width="386dp"
+            android:layout_height="276dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:gravity="top|left"
+            android:inputType="textMultiLine"
+            android:text="@string/gov_subsidy"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <EditText
+            android:layout_width="386dp"
+            android:layout_height="276dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:gravity="top|left"
+            android:inputType="textMultiLine"
+            android:text="@string/About_Octopus"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+        <fragment
+            android:id="@+id/nav_host_fragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="254dp"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/mobile_navigation" />
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

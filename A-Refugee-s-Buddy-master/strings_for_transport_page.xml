@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="hk_transport">
+
+        <br>
+        The HK government currently provides 200$ HKD for refugees.\n</br>
+        <br>   \n</br>
+        <br>
+        Main modes of Transport in HK\n</br>
+        <br>
+        1. MTR(Subway)\n</br>
+        <br>
+        2. KMB(Publish Bus)\n</br>
+        <br>
+        3. Mini Bus\n</br>
+        <br>
+        4. Taxi\n</br>
+
+        </string>
+
+    <string name="gov_subsidy">
+    <br>
+       Public Transport Fair Subsidy Scheme \n</br>
+        <br> \n</br>
+        <br>
+The Government has been implemented the Public Transport Fare Subsidy Scheme on 1 January 2019. All commuters, regardless of their age and income levels, are not required to submit an application for the Scheme. Under the Scheme, commuters with monthly public transport expenses exceeding $400 are eligible for the public transport fare subsidy. The Government will provide a subsidy amounting to 25% of the actual monthly public transport expenses in excess of $400, subject to a maximum of $300 per month. The subsidy of each month will be calculated on the basis of the actual monthly public transport expenses recorded on each Octopus. \n</br>
+
+
+    </string>
+
+    <string name="MTR_para1">
+        <br>
+        1. The MTR \n</br>
+        <br>   \n</br>
+        <br>
+            The HK railway accounts for 42% of all trips made on public transport each day. Hong Kong's railways are run by the MTR Corporation and contains ten local lines, Airport Express (AEL), The Guangzhou-Shenzhen-Hong Kong Express Rail Link (Hong Kong Section) (XRL) and Light Rail. Here is a map below detailing the different lines.\n</br>
+      </string>
+
+    <string name="MTR_para2">
+        <br>
+    Although this map may look intimidating at first, there are several other apps that can help navigate your trip. Examples are the MTR app that provides estimations of trip time and provides the best route based on your to and from destination. \n</br>
+</string>
+
+    <string name="KMB">
+    <br>
+        2. Bus \n</br>
+    <br> \n</br>
+    <br>
+    Within HK public buses we generally have two types:\n</br>
+    <br>\n</br>
+    <br>
+        a. KMB: Covers Kowloon and New Territories \n</br>
+    <br>
+        b. Citybus: HK Island \n</br>
+    <br> \n</br>
+    <br>
+        Fares for urban routes range from $3.2 to $13.4, and for New Territories routes, from $2 to $46.5. The average fair is around $10. The is also KMB app that enables you to plan your bus trip and provides buses in your area. Additionally, below there is a link to the HK Transportation Department's site that contains the log of all the buses and trains available\n</br>
+</string>
+
+    <string name="Link_to_Transportation_Website">
+        <a href="https://www.hkemobility.gov.hk/?routetype=12&amp;f=2&amp;l=1">Link to Government Transportation Department Website</a>
+
+</string>
+
+    <string name="Minibus">
+        <br>
+            3. MiniBus \n</br>
+        <br> \n</br>
+            <br>
+        Public Light Buses (PLBs) are minibuses with not more than 19 seats. Minibuses are used on scheduled services (green minibuses) and others on non-scheduled services (red minibuses). Red minibuses are free to operate anywhere, while Green minibuses operate one fixed routes.</br>
+
+    </string>
+
+    <string name="About_Octopus">
+
+        <br>
+            What is an Octopus? \n</br>
+            <br>
+                <br> \n</br>
+            Octopus is an widely used electronic payment system in HK that eliminates the need to carry coins and cash. Octopus is now widely accepted by the transportation modes mentioned above as well as retail shops, online merchants, parking facilities, self-service kiosks, leisure facilities and schools. \n</br>
+<br> \n</br>
+        <br>
+            Where can I get an octopus? \n</br>
+        <br> \n</br>
+        <br>
+            You can get a Standard Octopus or apply for a Personalised Octopus at MTR Customer Service Centres and customer service centres of public transport operators. For example, you can go to any customer service desk in the MTR. To first purchase the card a few of 50$ is necessary. However, this is a refundable deposit - Upon returning the card you will recieve these 50$ back \n</br>
+        <br> \n</br>
+        <br>
+            Can an octopus still be used even if there is not enough amount for the transaction? \n</br>
+        <br> \n</br>
+        <br>
+            If the remaining value on an Octopus is positive (HK$0.1 or more) but insufficient to cover the payment of a particular transaction, the Octopus can still be used as long as the resulting negative value does not exceed HK$35. The Octopus cannot be used if the remaining value is zero or negative prior to the transaction. \n</br>
+
+    </string>
+    <string name="title_activity_transport__page">Transport_Page</string>
+    <string name="tab_text_1">Transport Modes</string>
+    <string name="tab_text_2">Payment</string>
+    <string name="tab_text_3">Other Resources</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
